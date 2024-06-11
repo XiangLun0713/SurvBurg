@@ -1,0 +1,51 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: calc(5vh + 3vw);
+  color: rgba(26, 55, 79, 0.8);
+}
+
+.color-title {
+  text-align: center;
+  font-size: calc(5vw + 5vh);
+  font-weight: bold;
+  background: linear-gradient(180deg, #e35c60 0%, #f8c33a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
+
+.image {
+  height: 45vh;
+  margin: -1em 0;
+}
+
+.play-button {
+  margin-top: 2em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}

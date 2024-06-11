@@ -1,0 +1,18 @@
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner {
+  width: 95%;
+  font-weight: 700;
+  font-size: calc(1.6vh + 0.05vw);
+  font-family: "Open Sans", sans-serif;
+  color: #1a374f;
+  border-bottom: #1a374f solid 0.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
