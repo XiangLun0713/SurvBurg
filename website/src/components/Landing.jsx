@@ -7,7 +7,7 @@ const Landing = ({ handleOnPlayClick }) => {
     <>
       <div className="row">
         <div className="column">
-          <h2 className="black-title">WCD</h2>
+          <h2 className="black-title">Survival</h2>
           <h2 className="color-title">BURGER</h2>
         </div>
       </div>
